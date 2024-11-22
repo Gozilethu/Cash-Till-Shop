@@ -23,9 +23,9 @@ import javax.swing.table.DefaultTableModel;
  * @author admin
  */
 public class SalesPerson extends storeMenu {
-    String jdbcUrl = "jdbc:mysql://localhost:3306/bbphongolashopdb?zeroDateTimeBehavior=CONVERT_TO_NULL";
+    String jdbcUrl = "jdbc:mysql://localhost:3306/cashtillshopdb?zeroDateTimeBehavior=CONVERT_TO_NULL";
     String username = "root";
-    String password = "";/*M#T7638phe@dataBase*/
+    String password = "";
     
     
     PreparedStatement ps;
